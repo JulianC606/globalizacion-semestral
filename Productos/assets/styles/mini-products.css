@@ -1,0 +1,41 @@
+/* 
+  *
+   Mini products Style 
+  *
+  */
+
+  .products{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 5rem 0 ;
+  margin-left: -230px;
+
+  }
+  
+  .products__product-container {
+    text-decoration: none;
+    color: var(--primary-color);
+    display: flex;
+    flex-flow: column nowrap;
+    width: 210px;
+  }
+  
+  .products__product-container > img {
+    height: 118px;
+  }
+  
+  .products__product-container > h3 {
+    font-size: x-large;
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+  
+  .products__product-container > p {
+    font-size: 11px;
+    margin: 0;
+    text-align: center;
+    color: black
+  }
+  
+  

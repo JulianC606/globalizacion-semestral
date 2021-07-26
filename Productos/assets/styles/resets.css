@@ -1,0 +1,18 @@
+html{
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+ul {
+  padding: 0;
+}
+
+
