@@ -1,0 +1,26 @@
+main {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  min-height: 75vh;
+}
+
+.post h2{
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.post iframe {
+  height: 60vh;
+}
+main > h1 {
+  text-align: center;
+  color: var(--primary-color)
+}
