@@ -1,0 +1,18 @@
+.banner{
+  background-color: #0B6162;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  min-height: calc(50vh - 73px);
+  align-items: center;
+  padding: 5rem 0 0 0;
+  margin-bottom: 5rem;
+}
+
+.banner img {
+  width: 960px;
+}
+
+main {
+  margin-bottom: 5rem;
+}
